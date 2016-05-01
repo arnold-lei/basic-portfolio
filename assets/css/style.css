@@ -9,9 +9,9 @@
 
 
 body{
+  background-image: url("../images/weather/weather.png");
   margin:0px;
   font-family: BlinkMacSystemFont, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
-  background-color: #f5f5f5;
   color:#777777;
 }
 p{
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6{
   color:#4aaaa5;
 }
 .container {
-
-  background-color: #f5f5f5;
+  background-image: url("../images/weather/weather.png");
+  /*background-color: #f5f5f5; */
 }
 
 button{
@@ -86,7 +86,6 @@ button{
 .nav-title{
   background-color: #4aaaa5;
   color:#fff;
-
 }
 
 .about-me {
@@ -127,7 +126,12 @@ footer{
   clear:both;
   padding:0 5%;
   width: 100%;
-  background-color: #fff;
+  background-color: #666666;
   position:fixed;
   bottom: 0px;
+  border-top: 8px solid;
+  border-color: #4aaaa5;
+  color: #fff;
+  padding: 2em 0; 
+  text-align: center;
 }
