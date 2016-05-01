@@ -100,9 +100,14 @@ button{
   height:52px;
   margin-top: 1em;
   margin-right: .5em;
+  margin-right: 1em;
 }
 
 #profile-pic{
   width: 200px;
   float:left;
+}
+footer{
+  clear:both;
+  padding:0 5%;
 }
