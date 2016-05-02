@@ -1,5 +1,6 @@
 /* !!!!!! Colors used!!!!!!!*/
 /* teal = #4aaaa5 */
+/*#dark teal= #1F5D5A */
 /* font color except for headings = #777777 */
 /* Main header background color = #ffffff  */
 /* Main header border color = #cccccc  */
@@ -14,6 +15,13 @@ body{
   font-family: BlinkMacSystemFont, 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
   color:#777777;
 }
+a, a:hover, a:active, a:focus { 
+  outline: 0; 
+  color: #fff; 
+  text-decoration: none; 
+}
+
+
 p{
   margin-top: 0px;
 }
@@ -111,6 +119,11 @@ button{
   padding:2em 2em 5em 2em;
 
 }
+
+#icon-panel{
+  padding: 0 0 0 1em;
+}
+
 .icon{
   height:52px;
   margin-top: 1em;
@@ -122,12 +135,51 @@ button{
   width: 200px;
   float:left;
 }
+/*forms*/
+form{
+  padding-right:1em;
+}
+
+.input{
+  padding:.5em 1em;
+  outline:none;
+  margin-bottom:1em;
+}
+
+label{
+  display:block;
+  margin-bottom: .5em;
+}
+input {
+  width:100%;
+  border:none;
+  border-bottom: 1px solid #4aaaa5;
+}
+input:focus{
+  border:none;
+  border-bottom: 1px solid #1F5D5A;
+}
+
+textarea{
+  width:100%;
+  border-color: #4aaaa5;
+}
+textarea:focus{
+  border: 1px solid #1F5D5A;
+}
+
+.form-button{
+  background-color: #4aaaa5;
+  color:#fff;
+  padding:1em 2em;
+}
+
 footer{
   clear:both;
   padding:0 5%;
   width: 100%;
   background-color: #666666;
-  position:fixed;
+  position: relative;
   bottom: 0px;
   border-top: 8px solid;
   border-color: #4aaaa5;
