@@ -8,7 +8,7 @@ For this assignment I found that I was a little rusty with CSS and it was really
 
 Challenges
 
-The footer was paticularly challenging. I tried for a very long time to do it with pure CSS but I felt like I was getting no where with it. So I used the bootstrap JS plugin affix and stuck the footer to the bottom of the page. I am very curious about how to do it with pure css. I looked online and tried many different ways including the one provided in the HWK assignment but I didn't find the effect satisfactory. I hope this approach is accpetable. 
+The footer was paticularly challenging. I tried for a very long time to do it with pure CSS but I felt like I was getting no where with it. 
  
 
 The sizing of the panels. I tried to make the website work with the specified dimensions for the hwk but I ended up ditching the width of the outer container. I prefer the extra space between the main content area and the social media panel.

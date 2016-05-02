@@ -3,18 +3,6 @@
 <head>
   <title>Arnold's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script>
-      $('#footer').affix({
-      offset: {
-        bottom: 0,
-        bottom: function () {
-          return (this.bottom = $('.footer').outerHeight(true))
-        }
-      }
-    })
-  </script>
 </head>
 <body>
 <div class="warp">
@@ -34,7 +22,14 @@
         <h1>Portfolio</h1>
       </div>
       <div class="portfolio">
-        
+        <div class="row">
+          <div class="gallery-pic-left">
+            <img src="assets/images/arnold-fluff-square.jpg">
+          </div>
+          <div class="gallery-pic-right">
+            <img src="assets/images/arnold-fluff-square.jpg">
+          </div>
+        </div> <!--end of row-->
       </div>
     </div>
     <div class="connect-me">
@@ -56,11 +51,10 @@
   </div><!--end of container -->
 </div>
 <footer>
-  <div class="footer" id="footer">
+  <div class="footer">
     <p class="footer-text">&copy; Copyright 2016 Arnold Lei</p>
   </div>
 </footer>
-
 
 </body>
 </html>
