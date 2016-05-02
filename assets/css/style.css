@@ -184,14 +184,31 @@ textarea:focus{
 .row{
   display:inline;
 }
-.gallery-pic-left img{
+.gallery-pic{
+  width:300px;
+  position:relative;
+  z-index: 1;
+  margin-bottom: 2em;
+}
+.gallery-pic img{
   float:left;
-  width:200px;
+  width:300px;
+  position:relative;
+  z-index: 1;
 }
-.gallery-pic-right img{
-  float:right;
-  width:200px;
+
+.gallery-pic span{
+  position:absolute; 
+  width:100%;
+  padding:1em 0;
+  background-color: #4aaaa5;
+  color:#fff;
+  text-align: center;
+  top:250px;
+  left:0;
+  z-index: 2;
 }
+
 
 .form-button{
   background-color: #4aaaa5;
