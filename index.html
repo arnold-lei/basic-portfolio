@@ -3,22 +3,10 @@
 <head>
   <title>Arnold's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script>
-      $('#footer').affix({
-      offset: {
-        bottom: 0,
-        bottom: function () {
-          return (this.bottom = $('.footer').outerHeight(true))
-        }
-      }
-    })
-  </script>
 </head>
 <body>
-<div class="warp">
-  <div class="nav" role="navigation">
+<div class="wrap">
+  <div class="nav box-shadow" role="navigation">
     <div class="nav-hearder">
       <a href="#"><button class="nav-title">Arnold Lei</button></a>
       <div class="nav-buttons">
@@ -29,39 +17,39 @@
     </div>
   </div>
   <div class="container">
-  <div class="row">
-    <div class="about-me">
-      <div class="title">
-        <h1>Arnold Lei</h1>
+    <div class="row">
+      <div class="about-me box-shadow">
+        <div class="title">
+          <h1>Arnold Lei</h1>
+        </div>
+        <img id="profile-pic" src="assets/images/profile-picture.jpg"/>
+        <div class="text">
+          <p>Hi! My name is Arnold Lei. I am a cat lover, web developer, web designer, world travler, and much more. I am always looking to learn new things and improving myself. Thank you for taking the time to look at my portfolio, I'm sure you'll be impressed with what you see.</p>
+        </div>
       </div>
-      <img id="profile-pic" src="assets/images/profile-picture.jpg"/>
-      <div class="text">
-        <p>Hi! My name is Arnold Lei. I am a cat lover, web developer, web designer, world travler, and much more. I am always looking to learn new things and improving myself. Thank you for taking the time to look at my portfolio, I'm sure you'll be impressed with what you see.</p>
+      <div class="connect-me box-shadow">
+        <div class="title">
+          <h1>Connect with Me</h1>
+        </div>
+        <div class="" id="icon-panel">
+          <a href="https://github.com/arnold-lei" target="_blank">
+            <img class="icon" src="assets/images/github-gray.png" />
+          </a>
+          <a href="#" target="_blank">
+            <img class="icon" src="assets/images/linkedin-gray.png" /> 
+          </a>
+          <a href="https://stackoverflow.com/users/6273396/arnold-lei" target="_blank">
+            <img class="icon" src="assets/images/stackoverflow-gray.png" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="connect-me">
-      <div class="title">
-        <h1>Connect with Me</h1>
-      </div>
-      <div class="" id="icon-panel">
-        <a href="https://github.com/arnold-lei" target="_blank">
-          <img class="icon" src="assets/images/github-gray.png" />
-        </a>
-        <a href="#" target="_blank">
-          <img class="icon" src="assets/images/linkedin-gray.png" /> 
-        </a>
-        <a href="https://stackoverflow.com/users/6273396/arnold-lei" target="_blank">
-          <img class="icon" src="assets/images/stackoverflow-gray.png" />
-        </a>
-      </div>
-    </div>
-  </div>
   </div><!--end of container -->
-</div>
-    <footer>
-      <div class="footer">
-        <p class="footer-text">&copy; Copyright 2016 Arnold Lei</p>
-      </div>
-    </footer>
+    <div class="footer">
+      <p class="footer-text">&copy; Copyright 2016 Arnold Lei</p>
+    </div>
+
+</div><!--end of wrap -->
+
 </body>
 </html>
