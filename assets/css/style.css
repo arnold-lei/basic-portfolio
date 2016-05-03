@@ -115,11 +115,10 @@ box-shadow: 1px 1px 2px 0px rgba(102,102,102,0.41);
 
  }
 .about-me {
-  width:650px ;
+  width:60% ;
   float:left;
-  margin: 5% 0;
+  margin: 5% 0 0 5%;
   background-color: #fff;
-  margin-left:5%;
   padding:2em;
 }
 
@@ -132,7 +131,7 @@ box-shadow: 1px 1px 2px 0px rgba(102,102,102,0.41);
 
 .connect-me{
   background-color: #fff;
-  width:270px;
+  width:20%;
   float:right;
   margin-right: 5%;
   margin-top: 5%;
