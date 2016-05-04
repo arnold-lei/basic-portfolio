@@ -43,6 +43,11 @@ a, a:hover, a:active, a:focus {
 
 p{
   margin-top: 0px;
+  line-height: 26px;
+  text-shadow: 0px 1px 0px #fff;
+  display:inline;
+  text-align: justify;  
+
 }
 
 .center{
@@ -69,7 +74,6 @@ h1{
 }
 
 .container {
-  /*background-image: url("../images/weather/weather.png");*/
   height:100%;
   position:relative;
   overflow: auto;
@@ -168,10 +172,32 @@ button{
 #profile-pic{
   width: 200px;
   float:left;
-  margin-right: 2em;
+  margin:0 2em 2em 0;
+}
+
+.quote{
+  width:20%;
+  margin:1em;
 }
 
 
+h1 span{
+  color:#000;
+}
+
+h1.pull-quote {
+  margin:0;
+  display: inline-block;
+}
+
+.block{
+  display: block;
+  margin: 1em;
+}
+
+p.block{
+
+}
 /*Form Styles*/
 
 form{
@@ -228,7 +254,7 @@ textarea:focus{
   background-color: #4aaaa5;
   color:#fff;
   text-align: center;
-  top:350px;
+  top:352px;
   left:0;
   z-index: 2;
 }
