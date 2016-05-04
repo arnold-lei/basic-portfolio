@@ -9,6 +9,8 @@ For this assignment I found that I was a little rusty with CSS and it was really
 Challenges
 
 The footer was paticularly challenging. I tried for a very long time to do it with pure CSS but I felt like I was getting no where with it. 
+
+I FINALLY FIGURED IT OUT!!! I'm not sure why the container for this website wasn't extending to the bottom no matter what I tried. Finally I tried setting the div I wrapped the whole site in as "position:absolute;" and then the container for the site content as "position:relative;" and then the footer to "position:absolute; bottom:0;" 
  
 
 The sizing of the panels. I tried to make the website work with the specified dimensions for the hwk but I ended up ditching the width of the outer container. I prefer the extra space between the main content area and the social media panel.
