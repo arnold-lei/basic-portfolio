@@ -20,6 +20,11 @@ The sizing of the panels. I tried to make the website work with the specified di
 This website can be found hosted on heroku here:
 http://arnold-lei-rcb-portfolio.herokuapp.com/index.html
 
+Hit a little snafu, I changed the project name in Heroku dashoboard and I didn't change it on CLI. So when I tried to push it to Heroku it didn't find the app name. I googled around and found this solution:
+https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes
+
+Workd like a charm.
+
 ### Things I Learned
 I think that my biggest take away is how to create a sticky footer from scratch. It was harder that I expected. For the life of me I could not get the container to go the length of the website. In terms of CSS and HTML I was more diligent about writing comments to make the code clearer knowing that my professor would look at it ;) 
 
