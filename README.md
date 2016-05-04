@@ -1,5 +1,5 @@
 ## Portfolio Homework Assignment
-
+###Introduction
 I decided for this project, to write the CSS from scratch. I did another version of this assignment with Bootstrap: You can find it here:
 
 https://github.com/arnold-lei/portfolio-
@@ -20,7 +20,8 @@ The sizing of the panels. I tried to make the website work with the specified di
 This website can be found hosted on heroku here:
 http://arnold-lei-rcb-portfolio.herokuapp.com/index.html
 
-### Things I learned
+### Things I Learned
+I think that my biggest take away is how to create a sticky footer from scratch. It was harder that I expected. For the life of me I could not get the container to go the length of the website. In terms of CSS and HTML I was more diligent about writing comments to make the code clearer knowing that my professor would look at it ;) 
 
-
+I'm not new to Git but I think this time around I'm really starting to understand Git. Instead of just typing the code I'm taking the time to understand that commands. Having someone explain them to me has been really benificial as well. I've tried to be very clear with all my commit comments and making sure that I write at least something useful for just in case I need to go back to an older version. 
 
