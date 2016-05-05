@@ -1,0 +1,73 @@
+@media (max-width: 1095px) { 
+
+  .wrap{
+  min-height: 100%;
+  clear: both;
+  width:100%;
+  position: absolute;
+
+  }
+  .container {
+  height:100%;
+  width:90%;
+  margin:0 auto;
+  position:relative;
+  overflow: auto;
+  z-index: 1;
+  padding:10px 0 10em 2em;
+  }
+
+  .about-me {
+    width:100% ;
+  /*  margin: 2% 1em 0 5%;*/
+    background-color: #fff;
+    padding:2em;
+    margin:0 0 0 0;
+    float:none;
+
+  }
+
+  .connect-me{
+    background-color: #fff;
+    width:100%;
+  /*  margin-right: 5%;
+    margin-top: 2%;*/
+    padding:2em;
+    float:none;
+    margin:1em 0 0 0;
+  }
+
+  #icon-panel{
+  margin: 0 auto;
+  padding:0 0 0 0;
+
+}
+
+/*Gallery Styles*/
+
+.gallery-pic{
+  width:100% ;
+  position:relative;
+  z-index: 1;
+  margin-bottom: 2em;
+}
+.gallery-pic img{
+  float:left;
+  width:90%;
+  position:relative;
+  z-index: 1;
+}
+
+.gallery-pic span{
+  position:absolute; 
+  width:90%;
+  padding:1em 0;
+  background-color: #4aaaa5;
+  color:#fff;
+  text-align: center;
+  bottom:0;
+  left:0;
+  z-index: 2;
+}
+
+}
