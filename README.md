@@ -23,6 +23,9 @@ http://arnold-lei-rcb-portfolio.herokuapp.com/index.html
 Hit a little snafu, I changed the project name in Heroku dashoboard and I didn't change it on CLI. So when I tried to push it to Heroku it didn't find the app name. I googled around and found this solution:
 https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes
 
+#### Responsive Web Design
+I've always wanted to learn how to do repoonsive webdesign and I finally got around to reading about it. It's more simple that I had expected. I am still trying to figure out how to create a mobile nav.
+
 Workd like a charm.
 
 ### Things I Learned
