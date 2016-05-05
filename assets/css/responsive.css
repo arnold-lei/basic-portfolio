@@ -42,7 +42,13 @@
   padding:0 0 0 0;
 
 }
+.text{
+  width:90%;
+}
 
+.quote{
+  display:none;
+}
 /*Gallery Styles*/
 
 .gallery-pic{
@@ -61,6 +67,7 @@
 .gallery-pic span{
   position:absolute; 
   width:90%;
+  height:2em;
   padding:1em 0;
   background-color: #4aaaa5;
   color:#fff;
