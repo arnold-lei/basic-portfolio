@@ -1,5 +1,9 @@
-## Portfolio Homework Assignment
+## Portfolio Homework Assignment 1
 ###Introduction
+
+This is my submission for homework assignment 1:
+https://github.com/RutgersCodingBootcamp/04-16-NB-Class-Content/blob/master/homework-assignments/week-1-html-css/recommended-homework-assignment.md
+
 I decided for this project, to write the CSS from scratch. I did another version of this assignment with Bootstrap: You can find it here:
 
 https://github.com/arnold-lei/portfolio-
@@ -26,7 +30,7 @@ https://devcenter.heroku.com/articles/renaming-apps#updating-git-remotes
 #### Responsive Web Design
 I've always wanted to learn how to do repoonsive webdesign and I finally got around to reading about it. It's more simple that I had expected. I am still trying to figure out how to create a mobile nav.
 
-Workd like a charm.
+I realize now why bootstrap uses ul li for their nav. I got it working like a charm now. There are still some bugs with the portfolio page.
 
 ### Things I Learned
 I think that my biggest take away is how to create a sticky footer from scratch. It was harder that I expected. For the life of me I could not get the container to go the length of the website. In terms of CSS and HTML I was more diligent about writing comments to make the code clearer knowing that my professor would look at it ;) 
